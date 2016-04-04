@@ -1,5 +1,7 @@
 # analitics-element
 
+[![Join the chat at https://gitter.im/zguillez/periscope-embed-element](https://badges.gitter.im/zguillez/periscope-embed-element.svg)](https://gitter.im/zguillez/periscope-embed-element?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![npm version](https://badge.fury.io/js/periscope-embed-element.svg)](https://badge.fury.io/js/periscope-embed-element)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 [![Join the chat at https://gitter.im/zguillez/periscope-embed-element](https://badges.gitter.im/zguillez/periscope-embed-element.svg)](https://gitter.im/zguillez/periscope-embed-element?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
