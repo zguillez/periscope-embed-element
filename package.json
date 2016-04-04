@@ -1,6 +1,6 @@
 {
   "name": "periscope-embed-element",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "authors": [
     "Guillermo de la Iglesia <zguillez@gmail.com>"
   ],
@@ -13,7 +13,8 @@
     "periscope",
     "video",
     "streaming",
-    "embed"
+    "embed",
+    "web-components"
   ],
   "license": "MIT",
   "devDependencies": {
