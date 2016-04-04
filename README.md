@@ -1,4 +1,4 @@
-# analitics-element
+# periscope-embed-element
 
 [![npm version](https://badge.fury.io/js/periscope-embed-element.svg)](https://badge.fury.io/js/periscope-embed-element)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
