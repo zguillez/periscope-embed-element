@@ -1,0 +1,46 @@
+<link rel="import" href="../polymer/polymer.html">
+<dom-module id="periscope-embed-element">
+	<template></template>
+	<script>Polymer({
+		is: 'periscope-embed-element',
+		properties: {
+			uid: {
+				type: String,
+				observer: 'update'
+			},
+			width: {
+				type: Number,
+				value: '316',
+				observer: 'update'
+			},
+			height: {
+				type: Number,
+				value: '561',
+				observer: 'update'
+			},
+			orientation: {
+				type: String,
+				observer: 'update'
+			}
+		},
+		ready: function () {
+			var script = document.createElement('script');
+			script.id = 'periscope-embed';
+			script.src = 'http://embedperiscope.com/app/embed.js';
+			script.setAttribute('data-options', '{"width":' + this.width + ',"height":' + this.height + ',"orientation":"' + this.orientation + '","broadcast_id":"' + this.uid + '"}');
+			Polymer.dom(this.root).appendChild(script);
+		},
+		update: function () {
+			if (this.orientation !== 'portrait' && this.orientation !== 'landscape') {
+				this.orientation = 'portrait';
+			}
+			var embed = document.getElementById("periscope-embed");
+			var player = document.getElementById("periscope-player");
+			if (embed && player) {
+				embed.parentNode.removeChild(embed);
+				player.parentNode.removeChild(player);
+				this.ready();
+			}
+		}
+	});</script>
+</dom-module>
