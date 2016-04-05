@@ -1,0 +1,43 @@
+[
+    {
+        "name": "zguillez/periscope-meta",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zguillez/periscope-meta.git",
+            "reference": "5ae1f0b9b0acb5335e2b7d60258049dc3817f2d4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zguillez/periscope-meta/zipball/5ae1f0b9b0acb5335e2b7d60258049dc3817f2d4",
+            "reference": "5ae1f0b9b0acb5335e2b7d60258049dc3817f2d4",
+            "shasum": ""
+        },
+        "time": "2016-04-05 14:02:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Z\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Guillermo de la Iglesia",
+                "email": "zguillez@gmail.com"
+            }
+        ],
+        "description": "PHP module for Periscope user stream metadata",
+        "keywords": [
+            "metadata",
+            "periscope",
+            "php",
+            "xml"
+        ]
+    }
+]

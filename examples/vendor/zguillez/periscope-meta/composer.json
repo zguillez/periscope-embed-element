@@ -1,0 +1,21 @@
+{
+  "name": "zguillez/periscope-meta",
+  "description": "PHP module for Periscope user stream metadata",
+  "keywords": [
+    "Php",
+    "XML",
+    "Periscope",
+    "Metadata"
+  ],
+  "license": "MIT",
+  "authors": [{
+    "name": "Guillermo de la Iglesia",
+    "email": "zguillez@gmail.com"
+  }],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Z\\": "src/"
+    }
+  }
+}

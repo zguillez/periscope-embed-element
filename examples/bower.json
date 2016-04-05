@@ -1,0 +1,6 @@
+{
+  "name": "example",
+  "dependencies": {
+    "periscope-embed-element": "^1.0.5"
+  }
+}

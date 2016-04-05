@@ -1,0 +1,12 @@
+{
+    "name": "zguillez/example",
+    "authors": [
+        {
+            "name": "Guillermo de la Iglesia",
+            "email": "zguillez@gmail.com"
+        }
+    ],
+    "require": {
+        "zguillez/periscope-meta": "^0.1.0"
+    }
+}
