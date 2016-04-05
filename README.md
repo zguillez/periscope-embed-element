@@ -32,8 +32,8 @@ Example Periscope URL:
 
 Example code: 
 	
-	<link rel="import" href="bower_componets/analytics-element/periscope-embed-element.html">
-	<element-analytics uid="1jMJgMdERzjKL"/>
+	<link rel="import" href="bower_componets/periscope-embed-element/periscope-embed-element.html">
+	<periscope-embed-element uid="1jMJgMdERzjKL"/>
 		
 ### Options: 
 	
